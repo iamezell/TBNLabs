@@ -5,32 +5,83 @@
     <link rel='stylesheet' href='/stylesheets/style.css' />
 <style>
 
-h1{color: red}
+h1{color: blue}
 
-#ID-for-P2{background-color: blue}
+#font{color: blue}
 
-.favorites{color: pink}
+.BG-color{background-color: yellow}
 
 </style>
   </head>
   <body>
-	  <h1>What have you learned</h1>
-    <p>Here is a list of things I have learned.</p>
-    <img src="https://res.cloudinary.com/teepublic/image/private/s--UvSUNgzW--/b_rgb:fffffe,t_Heather%20Preview/c_lpad,f_jpg,h_630,q_90,w_1200/v1494469473/production/designs/1595608_1.jpg" width="150">
-
+   
+	
+    <img src="https://i.pinimg.com/736x/0f/e1/dd/0fe1dd92d58f600664be7045d5a4d5f9.jpg" width="300">
+    <h1 id="header"> Hello Developer!</h1>
+    <h2>Here are your notes:</h2>
     <ol>
-	    <li>Input images</li>
+	    <li>You have learned to input images and links</li>
 	    <li>HTML basic tags</li>
 	    <li><strong>Bold some text</strong></li>
 	    <li><em>Italicize Others</em></li>
 	    <li>Order and Unordered Lists</li>
-	    <li>Font Color</li>
-	    <li>Background Color</li>
+	    <li id="font">Font Color</li>
+	    <li class="BG-color">Background Color</li>
+	    <li>Create Ordered Lists</li>
+	    <li>Unordered Lists</li>
+	    <li> Adding a sentence break</li>
+
     </ol>
-    <ul>
-	<li>Note you are amazing!</li>
-    </ul>
-    <p id="ID-for-P2">This is my second paragraph do you like the color?</p>
-    <p class="favorites">Why did I put this? <br>You are going to clutter your page.<br>But you are so hardheaded.<br>Must be a Carey...lol</p>
+    <a target="_blank" href="https://www.w3schools.com/tags/tag_a.asp"> Notes: Links are a bit tricky and need to be explained.</a>
+
+    <ol>
+	    <li> Use the anchor tag</li>
+	    <li> Use the href attribute to refer to the link</li>
+	    <li> Open in new window use the target attribute and _blank as the identifier.</li>
+	    <li> Use the id tage to link to a particular olace on this page. Like returning to the <a href="#header">header</a>.</li>
+    </ol>
+   <a target="_blank" href="https://www.w3schools.com/html/html_tables.asp">Tables are tricky as well. Use this link for ref. </a>
+   <table>
+	   <thead> 
+		   <tr>
+			   <th>Step#</th>
+			   <th>Action Taken</th>
+		   </tr>
+	   </thead>
+	   <tbody>
+		   <tr>
+			   <td>1</td>
+			   <td>Use the table tag
+		   </tr>
+		   <tr>
+			   <td>2</td>
+			   <td>Use the thead and tbody tag to separate the header of the table and the data within the table</td>
+		   </tr>
+		   <tr>
+			   <td>3</td>
+			   <td>Use the tr tag to start and end a row.</td>
+		   </tr>
+		   <tr>
+			   <td>4</td>
+			   <td>Use the th tage to enter data into the cells for the header.</td>
+		   </tr>
+		   <tr>
+			   <td>5</td>
+			   <td>Use the td tage to enter data into the cells for the table</td>
+		   </tr>
+	   </tbody>
+
+   </table>
+
+    <p> Here is an example of an unordered list. Listing a few reasons why you will never quit!</p>
+
+    <ul> 
+	    <li> Children</li>
+	    <li>Wazim (Husband)</li>
+	    <li>Mom</li>
+
+   </ul>
+
+
   </body>
 </html>
